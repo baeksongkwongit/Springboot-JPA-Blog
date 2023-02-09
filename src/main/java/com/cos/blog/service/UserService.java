@@ -24,8 +24,8 @@ public class UserService {
         return -1;
     }
 
-    @Transactional(readOnly = true)
-    public User login(User user){
-        return userRepository.findByUsernameAndPassword(user.getUsername(), user.getPassword());
-    }
+//    @Transactional(readOnly = true)
+//    public User login(User user){
+//        return userRepository.findByUsernameAndPassword(user.getUsername(), user.getPassword());
+//    }
 }
