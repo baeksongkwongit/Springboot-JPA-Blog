@@ -10,6 +10,7 @@ public class Blog1Application {
 		System.setProperty("org.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH", "true");
 
 		SpringApplication.run(Blog1Application.class, args);
+
 	}
 
 }
