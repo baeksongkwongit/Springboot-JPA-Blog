@@ -1,4 +1,4 @@
-package com.cos.blog.auth;
+package com.cos.blog.config.auth;
 
 import com.cos.blog.model.User;
 import com.cos.blog.repository.UserRepository;
